@@ -82,6 +82,34 @@ body {
   display: inline-block;
 }
 
+.experiment-panel {
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.experiment-panel .columns {
+  align-items: stretch;
+}
+
+.experiment-panel .columns .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.experiment-panel .columns .column > .content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.experiment-panel .columns .column > .content > p {
+  min-height: 3.5em;
+  margin-bottom: 1rem;
+}
+
 .section-divider {
   border: none;
   border-top: 1px solid #dbdbdb;

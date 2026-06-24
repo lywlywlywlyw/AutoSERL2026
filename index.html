@@ -101,7 +101,6 @@
             </div>
 
           </div>
-        </div>
       </div>
     </div>
   </div>
@@ -168,6 +167,7 @@
         <h2 class="title is-4">Plug Insertion</h2>
 
         <h2 class="title is-5 has-text-left">AutoSERL</h2>
+        <div class="experiment-panel">
         <div class="columns is-centered">
           <div class="column">
             <h2 class="title is-6">Training</h2>
@@ -189,377 +189,400 @@
             <h2 class="title is-6">Evaluation</h2>
             <div class="content has-text-justified">
               <p>
-                Checkpoint at 43 min, evaluated over 30 trials.
+                Checkpoint at 8 min, evaluated over 50 trials.
               </p>
-              <video id="kettle-pick-and-pour-evaluation"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_DexAutoSERL_Evaluation.mp4"
-                        type="video/mp4">
-              </video>
+              <div class="publication-video">
+                <iframe id="plug-insertion-autoserl-evaluation"
+                        src="https://www.youtube-nocookie.com/embed/ZWO58GFjP9c"
+                        title="Plug Insertion AutoSERL Evaluation"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </div>
 
-        <h2 class="title is-5 has-text-left">ConRFT</h2>
+        </div>
+        <h2 class="title is-5 has-text-left">SERL</h2>
+        <div class="experiment-panel">
         <div class="columns is-centered">
           <div class="column">
             <h2 class="title is-6">Training</h2>
             <div class="content has-text-justified">
               <p>
-                Trained with ConRFT for 43 minutes.
+                Trained with SERL for 8 minutes.
               </p>
-              <video id="kettle-pick-and-pour-conrft"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_ConRFT_Training.mp4"
-                        type="video/mp4">
-              </video>
+              <div class="publication-video">
+                <iframe id="plug-insertion-serl-training"
+                        src="https://www.youtube-nocookie.com/embed/v03gaYqiVXM"
+                        title="Plug Insertion SERL Training"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
             </div>
           </div>
           <div class="column">
             <h2 class="title is-6">Evaluation</h2>
             <div class="content has-text-justified">
               <p>
-                Checkpoint at 43 min, evaluated over 30 trials.
+                Checkpoint at 8 min, evaluated over 50 trials.
               </p>
-              <video id="kettle-pick-and-pour-conrft-evaluation"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_ConRFT_Evaluation.mp4"
-                        type="video/mp4">
-              </video>
+              <div class="publication-video">
+                <iframe id="plug-insertion-serl-evaluation"
+                        src="https://www.youtube-nocookie.com/embed/98giJCHeUsU"
+                        title="Plug Insertion SERL Evaluation"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </div>
-
-        <h2 class="title is-5 has-text-left">HIL-SERL</h2>
-        <div class="columns is-centered">
-          <div class="column">
-            <h2 class="title is-6">Training</h2>
-            <div class="content has-text-justified">
-              <p>
-                Trained with HIL-SERL for 43 minutes.
-              </p>
-              <video id="kettle-pick-and-pour-hilserl"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_HILSERL_Training.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-          </div>
-          <div class="column">
-            <h2 class="title is-6">Evaluation</h2>
-            <div class="content has-text-justified">
-              <p>
-                Checkpoint at 43 min, evaluated over 30 trials.
-              </p>
-              <video id="kettle-pick-and-pour-hilserl-evaluation"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_HILSERL_Evaluation.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-          </div>
         </div>
-
-        <h2 class="title is-5 has-text-left">DemoGen</h2>
-        <div class="content has-text-justified">
-          The trained checkpoint was evaluated over 30 test trials. Since DexAutoSERL completed 130 training episodes within 43 minutes, each real-world demonstration in DemoGen was augmented into 130 synthetic trajectories to ensure a comparable amount of training data.
-        </div>
-        <div class="content has-text-centered">
-          <video id="orange-pick-and-place-demogen"
-                controls
-                muted
-                preload
-                playsinline
-                width="100%">
-            <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_DemoGen_Evaluation.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-4">Plush Toy Pick-up</h2>
-        <h2 class="title is-5 has-text-left">DexAutoSERL</h2>
-        <div class="content has-text-justified">
-          Trained with DexAutoSERL for 35 minutes.
-        </div>
-        <div class="content has-text-centered">
-          <video id="plush-toy-pickup-dexautoserl"
-                controls
-                muted
-                preload
-                playsinline
-                width="100%">
-            <source src="./dexautoserl_videos/PlushToyPickup/PlushToyPickup_DexAutoSERL_Training.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-
-        <h2 class="title is-5 has-text-left">ConRFT</h2>
-        <div class="content has-text-justified">
-          Trained with ConRFT for 35 minutes.
-        </div>
-        <div class="content has-text-centered">
-          <video id="plush-toy-pickup-conrft"
-                controls
-                muted
-                preload
-                playsinline
-                width="100%">
-            <source src="./dexautoserl_videos/PlushToyPickup/PlushToyPickup_ConRFT_Training.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-
-        <h2 class="title is-5 has-text-left">HIL-SERL</h2>
-        <div class="content has-text-justified">
-          Trained with HIL-SERL for 35 minutes.
-        </div>
-        <div class="content has-text-centered">
-          <video id="plush-toy-pickup-hilserl"
-                controls
-                muted
-                preload
-                playsinline
-                width="100%">
-            <source src="./dexautoserl_videos/PlushToyPickup/PlushToyPickup_HILSERL_Training.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-
       </div>
     </div>
 
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-4">Orange Pick-and-Place</h2>
-        <h2 class="title is-5 has-text-left">DexAutoSERL</h2>
-        <div class="content has-text-justified">
-          Trained with DexAutoSERL for 63 minutes.
-        </div>
-        <div class="content has-text-centered">
-          <video id="orange-pick-and-place-dexautoserl"
-                controls
-                muted
-                preload
-                playsinline
-                width="100%">
-            <source src="./dexautoserl_videos/OrangePickandPlace/OrangePickandPlace_DexAutoSERL_Training.mp4"
-                    type="video/mp4">
-          </video>
+        <h2 class="title is-4">USB Insertion</h2>
+
+        <h2 class="title is-5 has-text-left">AutoSERL</h2>
+        <div class="experiment-panel">
+        <div class="columns is-centered">
+          <div class="column">
+            <h2 class="title is-6">Training</h2>
+            <div class="content has-text-justified">
+              <p>
+                Trained with AutoSERL for 8 minutes.
+              </p>
+              <div class="publication-video">
+                <iframe id="usb-insertion-autoserl-training"
+                        src="https://www.youtube-nocookie.com/embed/-VCQIefV0EA"
+                        title="USB Insertion AutoSERL Training"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <h2 class="title is-6">Evaluation</h2>
+            <div class="content has-text-justified">
+              <p>
+                Checkpoint at 8 min, evaluated over 50 trials.
+              </p>
+              <div class="publication-video">
+                <iframe id="usb-insertion-autoserl-evaluation"
+                        src="https://www.youtube-nocookie.com/embed/FjkyMd72Ylw"
+                        title="USB Insertion AutoSERL Evaluation"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <h2 class="title is-5 has-text-left">ConRFT</h2>
-        <div class="content has-text-justified">
-          Trained with ConRFT for 63 minutes.
         </div>
-        <div class="content has-text-centered">
-          <video id="orange-pick-and-place-conrft"
-                controls
-                muted
-                preload
-                playsinline
-                width="100%">
-            <source src="./dexautoserl_videos/OrangePickandPlace/OrangePickandPlace_ConRFT_Training.mp4"
-                    type="video/mp4">
-          </video>
+        <h2 class="title is-5 has-text-left">SERL</h2>
+        <div class="experiment-panel">
+        <div class="columns is-centered">
+          <div class="column">
+            <h2 class="title is-6">Training</h2>
+            <div class="content has-text-justified">
+              <p>
+                Trained with SERL for 8 minutes.
+              </p>
+              <div class="publication-video">
+                <iframe id="usb-insertion-serl-training"
+                        src="https://www.youtube-nocookie.com/embed/g-X3SoFSV7E"
+                        title="USB Insertion SERL Training"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <h2 class="title is-6">Evaluation</h2>
+            <div class="content has-text-justified">
+              <p>
+                Checkpoint at 8 min, evaluated over 50 trials.
+              </p>
+              <div class="publication-video">
+                <iframe id="usb-insertion-serl-evaluation"
+                        src="https://www.youtube-nocookie.com/embed/LOSSaeoAGiA"
+                        title="USB Insertion SERL Evaluation"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <h2 class="title is-5 has-text-left">HIL-SERL</h2>
-        <div class="content has-text-justified">
-          Trained with HIL-SERL for 63 minutes.
         </div>
-        <div class="content has-text-centered">
-          <video id="orange-pick-and-place-hilserl"
-                controls
-                muted
-                preload
-                playsinline
-                width="100%">
-            <source src="./dexautoserl_videos/OrangePickandPlace/OrangePickandPlace_HILSERL_Training.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-
       </div>
     </div>
-
 
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-4">Kettle Pick-and-Pour</h2>
+        <h2 class="title is-4">Hanger Suspension</h2>
 
-        <h2 class="title is-5 has-text-left">DexAutoSERL</h2>
+        <h2 class="title is-5 has-text-left">AutoSERL</h2>
+        <div class="experiment-panel">
         <div class="columns is-centered">
           <div class="column">
             <h2 class="title is-6">Training</h2>
             <div class="content has-text-justified">
               <p>
-                Trained with DexAutoSERL for 43 minutes.
+                Trained with AutoSERL for 33 minutes.
               </p>
-              <video id="kettle-pick-and-pour-dexautoserl"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_DexAutoSERL_Training.mp4"
-                        type="video/mp4">
-              </video>
+              <div class="publication-video">
+                <iframe id="hanger-suspension-autoserl-training"
+                        src="https://www.youtube-nocookie.com/embed/nwT2Z5hP0yc"
+                        title="Hanger Suspension AutoSERL Training"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
             </div>
           </div>
           <div class="column">
             <h2 class="title is-6">Evaluation</h2>
             <div class="content has-text-justified">
               <p>
-                Checkpoint at 43 min, evaluated over 30 trials.
+                Checkpoint at 33 min, evaluated over 50 trials.
               </p>
-              <video id="kettle-pick-and-pour-evaluation"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_DexAutoSERL_Evaluation.mp4"
-                        type="video/mp4">
-              </video>
+              <div class="publication-video">
+                <iframe id="hanger-suspension-autoserl-evaluation"
+                        src="https://www.youtube-nocookie.com/embed/2dAc-T6TjG4"
+                        title="Hanger Suspension AutoSERL Evaluation"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </div>
 
-        <h2 class="title is-5 has-text-left">ConRFT</h2>
-        <div class="columns is-centered">
-          <div class="column">
-            <h2 class="title is-6">Training</h2>
-            <div class="content has-text-justified">
-              <p>
-                Trained with ConRFT for 43 minutes.
-              </p>
-              <video id="kettle-pick-and-pour-conrft"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_ConRFT_Training.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-          </div>
-          <div class="column">
-            <h2 class="title is-6">Evaluation</h2>
-            <div class="content has-text-justified">
-              <p>
-                Checkpoint at 43 min, evaluated over 30 trials.
-              </p>
-              <video id="kettle-pick-and-pour-conrft-evaluation"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_ConRFT_Evaluation.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-          </div>
         </div>
-
-        <h2 class="title is-5 has-text-left">HIL-SERL</h2>
-        <div class="columns is-centered">
-          <div class="column">
-            <h2 class="title is-6">Training</h2>
-            <div class="content has-text-justified">
-              <p>
-                Trained with HIL-SERL for 43 minutes.
-              </p>
-              <video id="kettle-pick-and-pour-hilserl"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_HILSERL_Training.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-          </div>
-          <div class="column">
-            <h2 class="title is-6">Evaluation</h2>
-            <div class="content has-text-justified">
-              <p>
-                Checkpoint at 43 min, evaluated over 30 trials.
-              </p>
-              <video id="kettle-pick-and-pour-hilserl-evaluation"
-                    controls
-                    muted
-                    preload
-                    playsinline
-                    width="100%">
-                <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_HILSERL_Evaluation.mp4"
-                        type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-
-        <h2 class="title is-5 has-text-left">DemoGen</h2>
+        <h2 class="title is-5 has-text-left">SERL</h2>
+        <div class="experiment-panel">
         <div class="content has-text-justified">
-          The trained checkpoint was evaluated over 30 test trials. Since DexAutoSERL completed 130 training episodes within 43 minutes, each real-world demonstration in DemoGen was augmented into 130 synthetic trajectories to ensure a comparable amount of training data.
+          Trained with SERL for 33 minutes.
         </div>
-        <div class="content has-text-centered">
-          <video id="orange-pick-and-place-demogen"
-                controls
-                muted
-                preload
-                playsinline
-                width="100%">
-            <source src="./dexautoserl_videos/KettlePickandPour/KettlePickandPour_DemoGen_Evaluation.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="publication-video">
+          <iframe id="hanger-suspension-serl-training"
+              src="https://www.youtube-nocookie.com/embed/WSL4XwNiLK0"
+              title="Hanger Suspension SERL Training"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen></iframe>
+        </div>
         </div>
       </div>
-
     </div>
-  </div>
+
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Correction Tape Suspension</h2>
+
+        <h2 class="title is-5 has-text-left">AutoSERL</h2>
+        <div class="experiment-panel">
+        <div class="columns is-centered">
+          <div class="column">
+            <h2 class="title is-6">Training</h2>
+            <div class="content has-text-justified">
+              <p>
+                Trained with AutoSERL for 25 minutes.
+              </p>
+              <div class="publication-video">
+                <iframe id="correction-tape-suspension-autoserl-training"
+                        src="https://www.youtube-nocookie.com/embed/YDbuAR4D7sA"
+                        title="Correction Tape Suspension AutoSERL Training"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <h2 class="title is-6">Evaluation</h2>
+            <div class="content has-text-justified">
+              <p>
+                Checkpoint at 25 min, evaluated over 50 trials.
+              </p>
+              <div class="publication-video">
+                <iframe id="correction-tape-suspension-autoserl-evaluation"
+                        src="https://www.youtube-nocookie.com/embed/JiSxkY--sZk"
+                        title="Correction Tape Suspension AutoSERL Evaluation"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <h2 class="title is-5 has-text-left">SERL</h2>
+        <div class="experiment-panel">
+        <div class="content has-text-justified">
+          Trained with SERL for 25 minutes.
+        </div>
+        <div class="publication-video">
+          <iframe id="correction-tape-suspension-serl-training"
+              src="https://www.youtube-nocookie.com/embed/pNqwrRC4H_A"
+              title="Correction Tape Suspension SERL Training"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Spoon Suspension</h2>
+
+        <h2 class="title is-5 has-text-left">AutoSERL</h2>
+        <div class="experiment-panel">
+        <div class="columns is-centered">
+          <div class="column">
+            <h2 class="title is-6">Training</h2>
+            <div class="content has-text-justified">
+              <p>
+                Trained with AutoSERL for 35 minutes.
+              </p>
+              <div class="publication-video">
+                <iframe id="spoon-suspension-autoserl-training"
+                        src="https://www.youtube-nocookie.com/embed/3UfktsbBiao"
+                        title="Spoon Suspension AutoSERL Training"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <h2 class="title is-6">Evaluation</h2>
+            <div class="content has-text-justified">
+              <p>
+                Checkpoint at 35 min, evaluated over 50 trials.
+              </p>
+              <div class="publication-video">
+                <iframe id="spoon-suspension-autoserl-evaluation"
+                        src="https://www.youtube-nocookie.com/embed/JsAGJVp5SXs"
+                        title="Spoon Suspension AutoSERL Evaluation"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <h2 class="title is-5 has-text-left">SERL</h2>
+        <div class="experiment-panel">
+        <div class="content has-text-justified">
+          Trained with SERL for 35 minutes.
+        </div>
+        <div class="publication-video">
+          <iframe id="spoon-suspension-serl-training"
+              src="https://www.youtube-nocookie.com/embed/o_g9jF3aq3w"
+              title="Spoon Suspension SERL Training"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Drawer Opening</h2>
+
+        <h2 class="title is-5 has-text-left">AutoSERL</h2>
+        <div class="experiment-panel">
+        <div class="columns is-centered">
+          <div class="column">
+            <h2 class="title is-6">Training</h2>
+            <div class="content has-text-justified">
+              <p>
+                Trained with AutoSERL for 45 minutes.
+              </p>
+              <div class="publication-video">
+                <iframe id="drawer-opening-autoserl-training"
+                        src="https://www.youtube-nocookie.com/embed/QXvS1t-fnak"
+                        title="Drawer Opening AutoSERL Training"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <h2 class="title is-6">Evaluation</h2>
+            <div class="content has-text-justified">
+              <p>
+                Checkpoint at 45 min, evaluated over 50 trials.
+              </p>
+              <div class="publication-video">
+                <iframe id="drawer-opening-autoserl-evaluation"
+                        src="https://www.youtube-nocookie.com/embed/MVaTGKjp3cU"
+                        title="Drawer Opening AutoSERL Evaluation"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <h2 class="title is-5 has-text-left">SERL</h2>
+        <div class="experiment-panel">
+        <div class="content has-text-justified">
+          Trained with SERL for 45 minutes.
+        </div>
+        <div class="publication-video">
+          <iframe id="drawer-opening-serl-training"
+              src="https://www.youtube-nocookie.com/embed/z4MRZX-ilCA"
+              title="Drawer Opening SERL Training"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 </section>
 
 </body>
