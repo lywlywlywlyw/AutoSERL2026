@@ -1,0 +1,23 @@
+{
+    "USBinsertion_serl_training": https://youtu.be/g-X3SoFSV7E,
+    "USBinsertion_serl_evaluation": https://youtu.be/LOSSaeoAGiA,
+    "USBinsertion_autoserl_training": https://youtu.be/-VCQIefV0EA,
+    "USBinsertion_autoserl_evaluation": https://youtu.be/FjkyMd72Ylw
+    "spoonsuspension_serl_training": https://youtu.be/o_g9jF3aq3w,
+    "spoonsuspension_autoserl_training": https://youtu.be/3UfktsbBiao,
+    "spoonsuspension_autoserl_evaluation": https://youtu.be/JsAGJVp5SXs,
+    "pluginsertion_serl_training": https://youtu.be/v03gaYqiVXM,
+    "pluginsertion_autoserl_training": https://youtu.be/qam1tvT0wHU,
+    "pluginsertion_autoserl_evaluation": https://youtu.be/ZWO58GFjP9c,
+    "plug_insertion_serl_evaluation": https://youtu.be/98giJCHeUsU,
+    "hangersuspension_serl_training": https://youtu.be/WSL4XwNiLK0,
+    "hangersuspension_autoserl_training": https://youtu.be/nwT2Z5hP0yc,
+    "hangersuspension_autoserl_evaluation": https://youtu.be/2dAc-T6TjG4，
+    "draweropening_serl_training": https://youtu.be/z4MRZX-ilCA,
+    "draweropening_autoserl_training": https://youtu.be/QXvS1t-fnak,
+    "draweropening_autoserl_evaluation": https://youtu.be/MVaTGKjp3cU,
+    "correctiontapesuspension_serl_training": https://youtu.be/pNqwrRC4H_A,
+    "correctiontapesuspension_autoserl_training": https://youtu.be/YDbuAR4D7sA,
+    "correctiontapesuspension_autoserl_evaluation": https://youtu.be/JiSxkY--sZk,
+
+}

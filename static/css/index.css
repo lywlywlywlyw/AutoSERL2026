@@ -82,6 +82,12 @@ body {
   display: inline-block;
 }
 
+.section-divider {
+  border: none;
+  border-top: 1px solid #dbdbdb;
+  margin: 0 auto 2rem;
+}
+
 .publication-banner img {
 }
 
